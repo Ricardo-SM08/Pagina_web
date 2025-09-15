@@ -1,0 +1,191 @@
+<!--Ricardo Santiago Montañez 5ªJ 0362-->
+<!--13/Sep/2025-->
+
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+
+  <title>Septiembre — Grito de Independencia</title>
+  <!--Fuentes / Tipo de letra-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Playfair+Display:wght@600&display=swap" rel="stylesheet">
+<style>
+/* ==========================
+COLORES PRINCIPALES
+========================== */
+:root{
+--verde:#0b6623; /* Verde bandera */
+--rojo:#c0392b; /* Rojo bandera */
+--blanco:#ffffff; /* Blanco */
+--fondo:#f7f7f7; /* Fondo suave */
+--max-width:1100px;
+}
+
+
+/* ==========================
+RESETEO BÁSICO
+========================== */
+*{box-sizing:border-box;margin:0;padding:0}
+body{
+font-family: 'Montserrat', Arial, sans-serif;
+line-height:1.6;
+background:linear-gradient(180deg,var(--fondo),#fff 40%);
+color:#333;
+}
+
+
+/* ==========================
+ENCABEZADO
+========================== */
+header{
+background:linear-gradient(90deg,var(--verde),#177a3b 60%);
+color:var(--blanco);
+padding:36px 16px;
+}
+.container{
+max-width:var(--max-width);
+margin:0 auto;
+padding:0 16px;
+}
+.brand{display:flex;align-items:center;gap:16px}
+.brand h1{font-family:'Playfair Display',serif;font-size:28px;margin:0}
+
+
+/* ==========================
+NAVEGACIÓN
+========================== */
+nav{margin-left:auto}
+.nav-links{display:flex;gap:12px}
+a.btn{
+background:var(--blanco);
+color:var(--verde);
+padding:10px 14px;
+border-radius:8px;
+text-decoration:none;
+font-weight:600;
+}
+/* ==========================
+Img
+========================== */
+
+img{
+  width:100%;
+  border-radius:12px;
+  box-shadow:0 6px 18px rgba(0,0,0,0.08);
+  margin-top:12px;
+}
+
+
+
+
+/* ==========================
+SECCIÓN HERO
+========================== */
+.hero{display:grid;grid-template-columns:1fr 420px;gap:28px;align-items:center;padding:36px 0}
+.lead{background:rgba(255,255,255,0.06);padding:20px;border-radius:12px}
+.lead h2{margin-bottom:8px;font-size:22px}
+.flag-card{background:var(--blanco);border-radius:12px;padding:18px;box-shadow:0 6px 18px rgba(0,0,0,0.08)}
+
+
+/* Bandera estilizada */
+.flag{height:150px;border-radius:8px;overflow:hidden;display:flex;flex-direction:column;margin-top:10px}
+.flag .stripe{flex:1}
+.verde{background:var(--verde)}
+.blanco{background:var(--blanco)}
+.rojo{background:var(--rojo)}
+</style>
+</head>
+<body>
+  <header>
+    <div class="container" style="display:flex;align-items:center;">
+      <div class="brand">
+        <div style="width:54px;height:54px;border-radius:10px;background:linear-gradient(45deg,var(--blanco),#f1f1f1);display:grid;place-items:center;font-weight:700;color:var(--verde)">Mx</div>
+        <div>
+          <h1>Septiembre — "Grito de Independencia"</h1>
+
+        </div>
+      </div>
+
+    </div>
+ <div class="container">
+        <nav class="nav-links">
+            <div class="nav-links">
+
+            <a class="btn" href="index.html" >Causas y consecuencias</a>
+            <a class="btn" href="bibligrafia_MH.html" >Biografía de Miguel Hidalgo</a>
+            <a class="btn" href="bibliografia_IA.html" >Biografía de Ignacio Allende</a>
+            <a class="btn" href="bibliografia_JA.html" >Biografía de Juan Aldama</a>
+
+        </nav>
+    </div>
+  </header>
+
+  <div class="container">
+    <section class="hero">
+      <div class="lead">
+        <h2>Honor al inicio de la Independencia</h2>
+        <p>Conoce quiénes fueron los protagonistas y las causas que llevaron al movimiento independentista en México. Este contenido ha sido adaptado para web desde la presentación original.</p>
+        <div class="meta" style="margin-top:12px">
+          <div class="badge">Fecha: 16 de Septiembre</div>
+          <div class="badge">Evento: Grito de Independencia</div>
+        </div>
+      </div>
+
+      <aside class="flag-card">
+        <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:12px">
+          <strong>Protagonistas</strong>
+          <small style="color:#777">Principales</small>
+        </div>
+        <div class="people">
+          <div class="person"><div class="avatar"></div><div><strong>Miguel Hidalgo y Costilla</strong><div style="font-size:13px;color:#666">Cura, iniciador del movimiento</div></div></div>
+          <div class="person"><div class="avatar"></div><div><strong>Ignacio Allende</strong><div style="font-size:13px;color:#666">Militar insurgente</div></div></div>
+          <div class="person"><div class="avatar"></div><div><strong>Juan Aldama</strong><div style="font-size:13px;color:#666">Participante clave</div></div></div>
+        </div>
+        <div class img style="margin-top:12px">
+          <img src="data:image/jpeg;base64,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" alt="Retrato de Miguel Hidalgo y Costilla">
+          <small style="font-size:12px;color:#666">Miguel Hidalgo y Costilla (1753-1811)</small>
+
+        </div>
+        <div style="margin-top:14px">
+          <div class="flag" aria-hidden="true">
+            <div class="stripe verde"></div>
+            <div class="stripe blanco"></div>
+            <div class="stripe rojo"></div>
+          </div>
+        </div>
+      </aside>
+    </section>
+
+    <main>
+      <section class="card">
+        <h3>Bibliografia de Miguel Hidalgo Y Costilla:</h3>
+        <p><br>Miguel Hidalgo y Costilla, una figura central en la historia de México, nació el 8 de mayo de 1753 en la Hacienda de San Diego de Corralejo, ubicada en Pénjamo, Guanajuato. Perteneciente a una acomodada familia criolla, era el segundo de cuatro hijos de Cristóbal Hidalgo y Costilla, quien era administrador de la hacienda.</p>
+        <p>Desde joven, Hidalgo mostró una notable inteligencia y una profunda vocación religiosa. Estudió en una escuela secundaria jesuita y posteriormente obtuvo una licenciatura en teología. Su carrera eclesiástica lo llevó a desempeñar diversos cargos, incluyendo el de rector del Colegio de San Nicolás en Valladolid (hoy Morelia), donde fomentó el estudio de las ideas ilustradas y las ciencias.</p>
+        <p><br> Desde joven, Hidalgo mostró una notable inteligencia y una profunda vocación religiosa. Estudió en una escuela secundaria jesuita y posteriormente obtuvo una licenciatura en teología. Su carrera eclesiástica lo llevó a desempeñar diversos cargos, incluyendo el de rector del Colegio de San Nicolás en Valladolid (hoy Morelia), donde fomentó el estudio de las ideas ilustradas y las ciencias.</p>
+        <p><br>En 1803, tras el fallecimiento de su hermano mayor, Hidalgo asumió el cargo de párroco en Dolores, Guanajuato. En esta parroquia, además de sus deberes religiosos, se dedicó a promover el desarrollo económico y social de la comunidad, introduciendo nuevas técnicas agrícolas y fomentando la industria de la seda y la vitivinicultura. Sin embargo, su inquietud intelectual y su descontento con el régimen colonial español lo llevaron a involucrarse en conspiraciones. </p>
+        <p><br>Fue en Dolores donde Hidalgo, junto con otros insurgentes como Ignacio Allende y Juan Aldama, planeó el levantamiento armado. La madrugada del 16 de septiembre de 1810, al verse descubierto, Hidalgo dio el Grito de Dolores, llamando al pueblo a levantarse en armas contra el gobierno español. Este acto marcó el inicio de la Guerra de Independencia de México. </p>
+        <p><br> Como líder del movimiento insurgente, Hidalgo comandó un ejército popular que, aunque inicialmente exitoso, enfrentó diversas dificultades. Fue capturado en Acatita de Baján en 1811 y, tras un juicio eclesiástico y militar, fue fusilado el 30 de julio de 1811 en Chihuahua. A pesar de su muerte, su legado como "Padre de la Patria" y el llamado a la libertad que pronunció, continúan inspirando a generaciones.</p>
+
+
+
+
+        </div>
+
+      </section>
+
+
+
+
+    </main>
+
+    <footer>
+      <div class="container">
+    <small>Hecho por " Ricardo Montañez 5ºJ ".</small>
+      </div>
+    </footer>
+  </div>
+
+</body>
+</html>

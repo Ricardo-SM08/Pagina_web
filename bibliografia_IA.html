@@ -1,0 +1,188 @@
+<!--Ricardo Santiago Montañez 5ªJ 0362-->
+<!--13/Sep/2025-->
+
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+
+  <title>Septiembre — Grito de Independencia</title>
+  <!--Fuentes / Tipo de letra-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Playfair+Display:wght@600&display=swap" rel="stylesheet">
+<style>
+/* ==========================
+COLORES PRINCIPALES
+========================== */
+:root{
+--verde:#0b6623; /* Verde bandera */
+--rojo:#c0392b; /* Rojo bandera */
+--blanco:#ffffff; /* Blanco */
+--fondo:#f7f7f7; /* Fondo suave */
+--max-width:1100px;
+}
+
+
+/* ==========================
+RESETEO BÁSICO
+========================== */
+*{box-sizing:border-box;margin:0;padding:0}
+body{
+font-family: 'Montserrat', Arial, sans-serif;
+line-height:1.6;
+background:linear-gradient(180deg,var(--fondo),#fff 40%);
+color:#333;
+}
+
+
+/* ==========================
+ENCABEZADO
+========================== */
+header{
+background:linear-gradient(90deg,var(--verde),#177a3b 60%);
+color:var(--blanco);
+padding:36px 16px;
+}
+.container{
+max-width:var(--max-width);
+margin:0 auto;
+padding:0 16px;
+}
+.brand{display:flex;align-items:center;gap:16px}
+.brand h1{font-family:'Playfair Display',serif;font-size:28px;margin:0}
+
+
+/* ==========================
+NAVEGACIÓN
+========================== */
+nav{margin-left:auto}
+.nav-links{display:flex;gap:12px}
+a.btn{
+background:var(--blanco);
+color:var(--verde);
+padding:10px 14px;
+border-radius:8px;
+text-decoration:none;
+font-weight:600;
+}
+/* ==========================
+Img
+========================== */
+
+img{
+  width:100%;
+  border-radius:12px;
+  box-shadow:0 6px 18px rgba(0,0,0,0.08);
+  margin-top:12px;
+}
+
+
+
+
+/* ==========================
+SECCIÓN HERO
+========================== */
+.hero{display:grid;grid-template-columns:1fr 420px;gap:28px;align-items:center;padding:36px 0}
+.lead{background:rgba(255,255,255,0.06);padding:20px;border-radius:12px}
+.lead h2{margin-bottom:8px;font-size:22px}
+.flag-card{background:var(--blanco);border-radius:12px;padding:18px;box-shadow:0 6px 18px rgba(0,0,0,0.08)}
+
+
+/* Bandera estilizada */
+.flag{height:150px;border-radius:8px;overflow:hidden;display:flex;flex-direction:column;margin-top:10px}
+.flag .stripe{flex:1}
+.verde{background:var(--verde)}
+.blanco{background:var(--blanco)}
+.rojo{background:var(--rojo)}
+</style>
+</head>
+<body>
+  <header>
+    <div class="container" style="display:flex;align-items:center;">
+      <div class="brand">
+        <div style="width:54px;height:54px;border-radius:10px;background:linear-gradient(45deg,var(--blanco),#f1f1f1);display:grid;place-items:center;font-weight:700;color:var(--verde)">Mx</div>
+        <div>
+          <h1>Septiembre — "Grito de Independencia"</h1>
+
+        </div>
+      </div>
+
+    </div>
+ <div class="container">
+        <nav class="nav-links">
+            <div class="nav-links">
+
+            <a class="btn" href="index.html" >Causas y consecuencias</a>
+            <a class="btn" href="bibligrafia_MH.html" >Biografía de Miguel Hidalgo</a>
+            <a class="btn" href="bibliografia_IA.html" >Biografía de Ignacio Allende</a>
+            <a class="btn" href="bibliografia_JA.html" >Biografía de Juan Aldama</a>
+
+        </nav>
+    </div>
+  </header>
+
+  <div class="container">
+    <section class="hero">
+      <div class="lead">
+        <h2>Honor al inicio de la Independencia</h2>
+        <p>Conoce quiénes fueron los protagonistas y las causas que llevaron al movimiento independentista en México. Este contenido ha sido adaptado para web desde la presentación original.</p>
+        <div class="meta" style="margin-top:12px">
+          <div class="badge">Fecha: 16 de Septiembre</div>
+          <div class="badge">Evento: Grito de Independencia</div>
+        </div>
+      </div>
+
+      <aside class="flag-card">
+        <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:12px">
+          <strong>Protagonistas</strong>
+          <small style="color:#777">Principales</small>
+        </div>
+        <div class="people">
+          <div class="person"><div class="avatar"></div><div><strong>Miguel Hidalgo y Costilla</strong><div style="font-size:13px;color:#666">Cura, iniciador del movimiento</div></div></div>
+          <div class="person"><div class="avatar"></div><div><strong>Ignacio Allende</strong><div style="font-size:13px;color:#666">Militar insurgente</div></div></div>
+          <div class="person"><div class="avatar"></div><div><strong>Juan Aldama</strong><div style="font-size:13px;color:#666">Participante clave</div></div></div>
+        </div>
+        <div class img style="margin-top:12px">
+          <img src="data:image/jpeg;base64,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" alt="img ignacio allende">
+          <small style="font-size:12px;color:#666">Ignacio Allende (1769-1811)</small>
+
+        </div>
+        <div style="margin-top:14px">
+          <div class="flag" aria-hidden="true">
+            <div class="stripe verde"></div>
+            <div class="stripe blanco"></div>
+            <div class="stripe rojo"></div>
+          </div>
+        </div>
+      </aside>
+    </section>
+
+    <main>
+      <section class="card">
+        <h3>Bibliografia de Ingnacio Allende:</h3>
+        <p><br>Ignacio José de Allende y Unzaga nació el 21 de enero de 1769 en San Miguel el Grande (hoy San Miguel de Allende), Guanajuato. Proveniente de una familia criolla acomodada, con su padre siendo un importante hacendado y militar, Allende siguió una carrera militar. Se unió al Regimiento de Dragones de la Reina, sirviendo lealmente al ejército virreinal y destacando por su valor y habilidad en la caballería.</p>
+        <p><br> Sin embargo, su lealtad al rey se vio cuestionada a medida que se involucraba en las conspiraciones independentistas. En San Miguel el Grande, Allende se convirtió en una figura central en la conspiración de Querétaro, trabajando estrechamente con Miguel Hidalgo y otros patriotas. Fue un líder carismático y un estratega militar, cuya influencia fue crucial para organizar y movilizar a las fuerzas insurgentes en las primeras etapas del movimiento. Su papel fue fundamental en la planificación del levantamiento y en la decisión de Hidalgo de iniciar la lucha armada.</p>
+        <p><br>Tras el Grito de Dolores, Allende se unió a Hidalgo, asumiendo un papel de liderazgo militar. Participó activamente en las primeras campañas, incluyendo la toma de Guanajuato y la Batalla del Monte de las Cruces. A pesar de sus esfuerzos por mantener la disciplina y organizar un ejército más efectivo, las diferencias tácticas con Hidalgo y la creciente indisciplina de las tropas debilitaron al movimiento. Allende fue capturado junto con Hidalgo y otros líderes en Acatita de Baján y, al igual que Hidalgo, fue sentenciado a muerte. Fue fusilado el 26 de julio de 1811 en Chihuahua, convirtiéndose en uno de los mártires de la Independencia. </p>
+
+
+
+
+        </div>
+
+      </section>
+
+
+
+
+    </main>
+
+    <footer>
+      <div class="container">
+    <small>Hecho por " Ricardo Montañez 5ºJ ".</small>
+      </div>
+    </footer>
+  </div>
+
+</body>
+</html>

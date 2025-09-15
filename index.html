@@ -1,0 +1,186 @@
+<!--Ricardo Santiago Montañez 5ªJ 0362-->
+<!--13/Sep/2025-->
+
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+
+  <title>Septiembre — Grito de Independencia</title>
+  <!--Fuentes / Tipo de letra-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Playfair+Display:wght@600&display=swap" rel="stylesheet">
+<style>
+/* ==========================
+COLORES PRINCIPALES
+========================== */
+:root{
+--verde:#0b6623; /* Verde bandera */
+--rojo:#c0392b; /* Rojo bandera */
+--blanco:#ffffff; /* Blanco */
+--fondo:#f7f7f7; /* Fondo suave */
+--max-width:1100px;
+}
+
+
+/* ==========================
+RESETEO BÁSICO
+========================== */
+*{box-sizing:border-box;margin:0;padding:0}
+body{
+font-family: 'Montserrat', Arial, sans-serif;
+line-height:1.6;
+background:linear-gradient(180deg,var(--fondo),#fff 40%);
+color:#333;
+}
+
+
+/* ==========================
+ENCABEZADO
+========================== */
+header{
+background:linear-gradient(90deg,var(--verde),#177a3b 60%);
+color:var(--blanco);
+padding:36px 16px;
+}
+.container{
+max-width:var(--max-width);
+margin:0 auto;
+padding:0 16px;
+}
+.brand{display:flex;align-items:center;gap:16px}
+.brand h1{font-family:'Playfair Display',serif;font-size:28px;margin:0}
+
+
+/* ==========================
+NAVEGACIÓN
+========================== */
+nav{margin-left:auto}
+.nav-links{display:flex;gap:12px}
+a.btn{
+background:var(--blanco);
+color:var(--verde);
+padding:10px 14px;
+border-radius:8px;
+text-decoration:none;
+font-weight:600;
+}
+
+
+/* ==========================
+SECCIÓN HERO
+========================== */
+.hero{display:grid;grid-template-columns:1fr 420px;gap:28px;align-items:center;padding:36px 0}
+.lead{background:rgba(255,255,255,0.06);padding:20px;border-radius:12px}
+.lead h2{margin-bottom:8px;font-size:22px}
+.flag-card{background:var(--blanco);border-radius:12px;padding:18px;box-shadow:0 6px 18px rgba(0,0,0,0.08)}
+
+
+/* Bandera estilizada */
+.flag{height:150px;border-radius:8px;overflow:hidden;display:flex;flex-direction:column;margin-top:10px}
+.flag .stripe{flex:1}
+.verde{background:var(--verde)}
+.blanco{background:var(--blanco)}
+.rojo{background:var(--rojo)}
+</style>
+</head>
+<body>
+  <header>
+    <div class="container" style="display:flex;align-items:center;">
+      <div class="brand">
+        <div style="width:54px;height:54px;border-radius:10px;background:linear-gradient(45deg,var(--blanco),#f1f1f1);display:grid;place-items:center;font-weight:700;color:var(--verde)">Mx</div>
+        <div>
+          <h1>Septiembre — "Grito de Independencia"</h1>
+
+        </div>
+      </div>
+
+    </div>
+ <div class="container">
+        <nav class="nav-links">
+            <div class="nav-links">
+
+            <a class="btn" href="index.html" >Causas y consecuencias</a>
+            <a class="btn" href="bibligrafia_MH.html" >Biografía de Miguel Hidalgo</a>
+            <a class="btn" href="bibliografia_IA.html" >Biografía de Ignacio Allende</a>
+            <a class="btn" href="bibliografia_JA.html" >Biografía de Juan Aldama</a>
+
+        </nav>
+    </div>
+  </header>
+
+  <div class="container">
+    <section class="hero">
+      <div class="lead">
+        <h2>Honor al inicio de la Independencia</h2>
+        <p>Conoce quiénes fueron los protagonistas y las causas que llevaron al movimiento independentista en México. Este contenido ha sido adaptado para web desde la presentación original.</p>
+        <div class="meta" style="margin-top:12px">
+          <div class="badge">Fecha: 16 de Septiembre</div>
+          <div class="badge">Evento: Grito de Independencia</div>
+        </div>
+      </div>
+
+      <aside class="flag-card">
+        <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:12px">
+          <strong>Protagonistas</strong>
+          <small style="color:#777">Principales</small>
+        </div>
+        <div class="people">
+          <div class="person"><div class="avatar"></div><div><strong>Miguel Hidalgo y Costilla</strong><div style="font-size:13px;color:#666">Cura, iniciador del movimiento</div></div></div>
+          <div class="person"><div class="avatar"></div><div><strong>Ignacio Allende</strong><div style="font-size:13px;color:#666">Militar insurgente</div></div></div>
+          <div class="person"><div class="avatar"></div><div><strong>Juan Aldama</strong><div style="font-size:13px;color:#666">Participante clave</div></div></div>
+        </div>
+        <div style="margin-top:14px">
+          <div class="flag" aria-hidden="true">
+            <div class="stripe verde"></div>
+            <div class="stripe blanco"></div>
+            <div class="stripe rojo"></div>
+          </div>
+        </div>
+      </aside>
+    </section>
+
+    <main>
+      <section id="causas" class="card">
+        <h3>Causas que desencadenaron la Independencia de México</h3>
+        <p>Varios factores sociales, económicos y políticos provocaron descontento dentro del Virreinato:</p>
+        <div class="grid-2" style="margin-top:12px">
+          <div>
+            <ul>
+              <li><strong>Desigualdad entre criollos y peninsulares:</strong><br> Los criollos tenían menos derechos y oportunidades frente a los españoles.</li>
+              <li><strong>Carga tributaria y restricciones comerciales:</strong> <br> Altos impuestos y políticas comerciales que beneficiaban a la metrópoli.</li>
+              <li><strong>Concentración de riqueza:</strong><br> El clero y la aristocracia española controlaban las tierras y la minería.</li>
+            </ul>
+          </div>
+          <div>
+            <ul>
+              <li><strong>Despojo y discriminación:</strong><br> Mestizos, indígenas y afrodescendientes padecían falta de derechos.</li>
+              <li><strong>Problemas económicos de la Corona:</strong> <br>Crisis en España que debilitó el control político.</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section class="card">
+        <h3>Resumen de la guerra de Indepencia (Obiamente Mexicana)</h3>
+        <p>La Independencia de México fue un complejo proceso histórico y social que se extendió a lo largo de once años, marcando el fin del dominio español en el territorio. </p>
+        <p>El movimiento independentista se inició formalmente el 16 de septiembre de 1810 con el Grito de Dolores, liderado por el cura Miguel Hidalgo y Costilla. Este evento desencadenó una revolución social que buscaba la emancipación de la Corona Española.</p>
+        <p>Tras diversas etapas y la participación de figuras clave como José María Morelos y Pavón, Vicente Guerrero y Agustín de Iturbide, la guerra de independencia culminó en septiembre de 1821.</p>
+        <p>El punto culminante llegó con la entrada triunfal del Ejército Trigarante a la Ciudad de México, evento que selló la proclamación de México como una nación independiente, libre y soberana. Este logro representa una de las celebraciones más importantes en la historia del país.</p>
+
+
+      </section>
+
+
+    </main>
+
+    <footer>
+      <div class="container">
+    <small>Hecho por " Ricardo Montañez 5ºJ ".</small>
+      </div>
+    </footer>
+  </div>
+
+</body>
+</html>
